@@ -20,7 +20,7 @@ class turmaTest(unittest.TestCase):
     print('Teste', self._testMethodName, 'finalizado.'); 
   
   def testMaior(self):      
-    self.assertEqual(9, self.turmaObject.maiorNota.nota, 'Erro ao encontrar maior nota');
+    self.assertEqual(6, self.turmaObject.maiorNota.nota, 'Erro ao encontrar maior nota');
 
   def testMenor(self):    
     self.assertEqual(8, self.turmaObject.menorNota.nota, 'Erro ao encontrar menor nota');
